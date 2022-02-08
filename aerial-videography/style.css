@@ -113,6 +113,18 @@ font-family: Noto Sans, sans-serif;
   padding: 10px;
 }
 
+.me-container {
+    display: flex;
+    margin: 10px;
+    border-color: none;
+    flex-direction: row;
+    overflow: hidden;
+    align: center;
+    min-width: 150px;
+    
+  padding: 10px;
+}
+
 .cred-item {
     margin: 10px;
     background-color: white;
@@ -137,6 +149,12 @@ height: 130px;
 }
 
 .recentProjectsSlideshowElt img {
+    object-fit: contain;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+.meSlideshowElt img {
     object-fit: contain;
     max-width: 300px;
     min-width: 100px;
