@@ -32,7 +32,7 @@ h3 {
 }
 
 .banner-video-container img{
-	 display: block;
+ display: block;
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
@@ -158,4 +158,12 @@ height: 130px;
     object-fit: contain;
     max-width: 300px;
     min-width: 100px;
+}
+
+.me_pic {
+    margin: 10px;
+    float: left;
+    display: inline-block;
+    width: 20%;
+    height: auto;
 }
