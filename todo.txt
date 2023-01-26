@@ -1,0 +1,15 @@
+To dos for website:
+
+- add collapsible effect to show website when scroll up past the main infographic
+    <!-- sections to incorporate>
+        outreach, asking experts
+        scheduling
+        goals
+        specific skillsets
+        marketing
+        network building
+        client/server relationship, processes, documents, forms
+        current, in-progress, and planned credentials and certs
+        FAQ/contact widget or info
+    -->
+

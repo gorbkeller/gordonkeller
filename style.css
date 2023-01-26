@@ -6,6 +6,15 @@
  * muted mustard: #dac842
  * */
 
+body {
+    background-image:url(assets/roombkgndcolor.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:auto;
+    height:auto;
+    opacity:0.39;
+}
+
 h1 {
   color: #6e8496;
   margin-left: 20px;
