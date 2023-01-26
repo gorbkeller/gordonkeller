@@ -7,13 +7,45 @@
  * */
 
 body {
+    opacity:0.39;
+}
+
+.banner {
     background-image:url(assets/roombkgndcolor.png);
     background-repeat:no-repeat;
     background-size:contain;
     width:auto;
-    height:auto;
-    opacity:0.39;
+    height:500px;
 }
+
+.blurbs {
+    height: auto;
+    width: auto;
+}
+
+.blurb h3 {
+    color: green;
+    float: left;
+}
+
+.blurb img {
+    float: left;
+    width: auto;
+    height: 50px;
+}
+
+
+.blurb p {
+    float: right;
+    font-size: 30px;
+    
+}
+ 
+.statement p {
+    text-align: center;
+    font-size: 20px;
+}
+
 
 h1 {
   color: #6e8496;
@@ -27,8 +59,6 @@ h2 {
 h3 {
     font-family: Noto Sans, sans-serif;
 }
-
-
 
 #desc {
     color: white;
@@ -116,6 +146,12 @@ font-family: Noto Sans, sans-serif;
   font-weight: bold;
 }
 
+.header img.menu_logo{
+  width: auto;
+  height: 50px;
+}
+
+
 /* Change the background color on mouse-over */
 .header a:hover {
   background-color: #ddd;
@@ -144,3 +180,17 @@ font-family: Noto Sans, sans-serif;
     float: none;
   }
 }
+
+.bottom_menu {
+     height: auto;
+     width: auto;
+ }
+
+.bottom_menu li{
+    font-size: 15px;
+ }
+
+ .footer {
+     height: auto;
+     width: auto;
+ }
