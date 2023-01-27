@@ -8,9 +8,10 @@
 	</head>
 
     <body>
-        <div class="header">
+        <!-- LINKS DON'T FLOAT RIGHT? -->
+        <div name="gk_topnav" class="topnav">
             <a href="#default" class="logo"><img name="menu_logo" class="menu_logo" src="assets/gk_logo_small.png"></a>
-            <div class "header-right">
+            <div class "topnav-right">
                 <a class="active" href="#home">Home</a>
                 <a href="#projects">Projects</a>
                 <a href="#testemonials">Testimonials</a>
@@ -19,22 +20,12 @@
                 <a href="#assistance">Assistance</a>
                 <a href="#personal_page">Personal Page</a>
                 <a href="#contact">Contact</a>
-                <!--ul name="top_menu_list">
-                    <li>about</li>
-                    <li>projects</li>
-                    <li>testimonials</li>
-                    <li>resume</li>
-                    <li>rates</li>
-                    <li>assistance</li>
-                    <li>personal page</li>
-                    <li>contact</li>
-                </ul-->
             </div>
         </div>
         <div class="banner">
             <h2 name="slogan_header"> Design, Fabrication, and Innovation </h2>
         </div>
-        <div name="brief">
+        <div name="brief" class="lside">
 
             <p>Gordon Keller Engineering is a private engineering consulting practice
             based in Santa Cruz, CA.<br>
@@ -43,8 +34,8 @@
                 <div name="robot_blurb" class="blurb">
                     <h3>Robotics</h3>
                     <img src="assets/robot_arm.png">
-                    <p>ROS, Control Systems, Sencsing, Computer Vision, sUAS, Simulation</p>
-                <div>
+                    <p>ROS, Control Systems, Sensing, Computer Vision, sUAS, Simulation</p>
+                </div>
                 <div name="electronics_blurb" class="blurb">
                     <h3>Electronics</h3>
                     <img src="assets/led_button.png">
@@ -61,17 +52,17 @@
                     <p>algorithm implementation and analysis, open-source contribution and hosting</p>
                 </div>
                 <div name="Design and Fabrication_blurb" class="blurb">
-                    <h3>Design and Fabrication</h3>
+                    <h3>Design and <br>Fabrication</h3>
                     <img src="assets/printer_button.png">
                     <p>algorithm implementation and analysis, open-source contribution and hosting</p>
                 </div>
                 <div name="Front-end interfaces_blurb" class="blurb">
-                    <h3>Front-end interfaces</h3>
+                    <h3>Front-end <br>interfaces</h3>
                     <img src="assets/computer.png">
                     <p>QT-based desktop and mobile interface</p>
                 </div>
                 <div name="Scientific Research and Publications_blurb" class="blurb">
-                    <h3>Scientific Research and Publications</h3>
+                    <h3>Scientific Research <br>and Publications</h3>
                     <img src="assets/papers_button.png">
                     <p>Field research experience for geoscientific (geophysics, volcanlology) research</p>
                 </div>
@@ -95,7 +86,7 @@
 
         </div>
 
-        <div name="footer" class="footer">
+        <footer name="footer" class="footer">
             <div name="bottom_menu" class="bottom_menu">
                 <ul>
                     <li>legal</li>
@@ -117,7 +108,7 @@
                 Website designed and maintained by gordon keller,
                 hosted by Vultr, and domain from Epik. gordonkeller.com Copyright &#169 2021-2022.
             </div>
-        </div>
+        </footer>
     
     </body>
 
