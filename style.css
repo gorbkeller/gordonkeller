@@ -9,12 +9,16 @@
 body {
 }
 
-.banner {
-    background-image:url(assets/roombkgndcolor.png);
-    background-repeat:no-repeat;
-    background-size:contain;
+.central_banner {
     width:auto;
     height:500px;
+}
+
+
+.central_banner img.banner_img {
+    float: left;
+    width:200px;
+    height:200px;
 }
 
 .blurbs {
@@ -211,12 +215,12 @@ font-family: Noto Sans, sans-serif;
     background-color:  white;  
 }  
 
-.footer{
-background-color:#455e64;
-text-align: center;
-padding: 10px;
+.footer {
+    background-color:#455e64;
+    text-align: center;
+    padding: 10px;
 }
 
-.footer p{
-color: white;
+.footer p {
+    color: white;
 }
