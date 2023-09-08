@@ -4,36 +4,10 @@
  * forest green: #728747
  * olive green: #979f4d
  * muted mustard: #dac842
- * testing this...
  * */
 
 body {
-    min-width: 500px;
-    max-width: 1080px;
-    width: 100vw;
-    height: auto;
-    background-image: url('imgs/roombkgndcolor_cropped.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    /*filter: blur(20px);
-    -webkit-filter: blur(20px);*/
-}
-
-.content_block {
-    width:auto;
-    height:900px;
-}
-
-.avatar {
-    /*width:auto;*/
-    min-width: 70px;
-    width: 30vw;
-    height:auto;
-    position: fixed;
-    left: 140px;
-    bottom: 0px;
+    #test
 }
 
 .central_banner {
@@ -84,10 +58,7 @@ body {
 
 h1 {
   color: #6e8496;
-  mar  background-image: url('img_girl.jpg');
-OAOAOA  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;gin-left: 20px;
+  margin-left: 20px;
 }
 
 h2 {
@@ -253,21 +224,4 @@ font-family: Noto Sans, sans-serif;
 
 .footer p {
     color: white;
-}
-
-.bg-image {
-  /* The image used */
-  background-image: url("imgs/roombkgnd_cropped.png");
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
