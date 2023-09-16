@@ -130,3 +130,6 @@ ul {
   margin-bottom: 4px;
 }
 
+.footer {
+    z-index:1;
+}
